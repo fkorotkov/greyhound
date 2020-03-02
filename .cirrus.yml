@@ -1,7 +1,6 @@
 bazel_build:
   container:
     image: l.gcr.io/google/bazel:2.1.0
-    kvm: true
   task:
     bazel_repository_cache:
       folder: /.repo_cache
